@@ -1,0 +1,10 @@
+.header{
+    font-size: 62.5%;
+    min-width: 390px;
+    height: 100%;
+    color: var(--fontcolor);
+    font-family: "Tsukimi Rounded", sans-serif;
+}
+.headernav{
+    display: flex;
+}

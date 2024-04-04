@@ -1,12 +1,17 @@
 import Image from "next/image";
-import styles from "../styles/index.module.css";
+import styles from "styles/index.module.css";
+import Header from "components/header";
+import Hero from "components/hero";
+import Footer from "components/footer";
 
 export default function Home() {
     return (
-        <main className={styles.main}>
-            <div>
-                <h1>aaa</h1>
-            </div>
-        </main>
+        <>
+            <Header />
+            <main className={styles.main}>
+                <Hero />
+            </main>
+            <Footer />
+        </>
     );
 }
